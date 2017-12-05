@@ -7,7 +7,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .bottom-link:before {
@@ -15,8 +15,8 @@ body {
 }
 
 .bottom-links .bottom-link {
-    width: 3em;
-    height: 3em;
+    width: 3.5em;
+    height: 3.5em;
     transform: scale(1);
     background-size: cover;
     border-radius: 50%;
@@ -26,7 +26,7 @@ body {
 }
 
 .bottom-links .bottom-link:not(:first-child) {
-    margin-left: 0.5em;
+    margin-left: 0.75em;
 }
 
 .bottom-links .bottom-link:hover {
